@@ -1,0 +1,5 @@
+<%= bootstrap_form_for(@article, class: 'form') do |f| %>
+  <%= f.text_field :title %>
+  <%= f.text_area :content, rows: 10 %>
+  <%= f.submit class: "btn btn-default" %>
+<% end %>
